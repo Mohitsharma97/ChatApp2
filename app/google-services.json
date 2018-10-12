@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "859186746258",
+    "firebase_url": "https://chatapp-243d3.firebaseio.com",
+    "project_id": "chatapp-243d3",
+    "storage_bucket": "chatapp-243d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859186746258:android:d06816df6eb1d4dd",
+        "android_client_info": {
+          "package_name": "com.example.mohitsharma.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859186746258-ree50qrpkniu0fdi1hv2jlgv8kv4j7k3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mohitsharma.chatapp",
+            "certificate_hash": "1fa636b441a4b0736d778eb9e1f814e2d948973a"
+          }
+        },
+        {
+          "client_id": "859186746258-ib5rvvqkrnc0f4pghindsqrspotubbke.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "859186746258-ib5rvvqkrnc0f4pghindsqrspotubbke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrbTBj3OSIhQiI1c_P0X_A9rAGcyJdd20"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859186746258-ib5rvvqkrnc0f4pghindsqrspotubbke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

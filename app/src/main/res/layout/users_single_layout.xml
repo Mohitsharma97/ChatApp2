@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@mipmap/profile" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/onlinestate"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignTop="@+id/circleImageView"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/circleImageView"
+        android:src="#FF40FF59" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/circleImageView"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/circleImageView"
+        android:text="Dispaly Name"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/circleImageView"
+        android:layout_alignStart="@+id/textView"
+        android:text="Users Status"
+        android:textSize="15dp" />
+
+</RelativeLayout>
